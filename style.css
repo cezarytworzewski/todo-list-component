@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.todo-list-input {
+  height: 60px;
+  width: 200px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 250px;
+  background-color: azure;
+}
+
+.todo-list {
+  color: #0e0000;
+}
+
+.add-button-to-list-1, .add-button-to-list-2,
+.add-button-to-list-3, .add-button-to-list-4,
+.add-button-to-list-5, .add-button-to-list-6,
+.add-button-to-list-7, .add-button-to-list-8,
+.add-button-to-list-9, .add-button-to-list-10{
+  height: 40px;
+  width: 80px;
+  background-color: #4cae4c;
+}
